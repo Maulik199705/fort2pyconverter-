@@ -1,0 +1,9 @@
+# Example verification config
+fortran_build_dir: ./build/fort
+fortran_exe: ./build/fort/a.out
+python_entry_module: main_module
+python_entry_function: main_entry
+cases:
+  - name: basic_run
+    exe_args: []
+    stdin: ""
